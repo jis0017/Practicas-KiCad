@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TerminalBlock_OSTVN04A150")(type "KiCad")(uri "${KIPRJMOD}/library/terminalblock/TerminalBlock_OSTVN04A150.kicad_sym")(options "")(descr ""))
+  (lib (name "Resistencias_220R_2026-03-03_16-25-59")(type "KiCad")(uri "${KIPRJMOD}/library/resistencia/Resistencias_220R_2026-03-03_16-25-59.kicad_sym")(options "")(descr ""))
+  (lib (name "LED_LTL-4233_LTO")(type "KiCad")(uri "${KIPRJMOD}/library/led/LED_LTL-4233_LTO.kicad_sym")(options "")(descr ""))
+  (lib (name "BUZZER_CPI-137-83T")(type "KiCad")(uri "${KIPRJMOD}/library/buzzer/BUZZER_CPI-137-83T.kicad_sym")(options "")(descr ""))
+)
