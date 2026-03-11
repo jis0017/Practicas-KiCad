@@ -1,0 +1,190 @@
+(footprint "LED_TRANS"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.135 0)
+		(layer "F.SilkS")
+		(uuid "7ef0996b-7a51-4a67-b7d1-975ab65af982")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WL-TMRW_5MM"
+		(at 0 4.365 0)
+		(layer "F.Fab")
+		(uuid "1e815aaf-83fb-4e6b-988a-9a84b21fd878")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da769b4b-5360-404b-83c4-72fe62504f54")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "94e7d9e0-7eed-46dd-9026-d15f521ecc89")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 2.6 -1.38)
+		(end 2.6 1.38)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5647a52f-8650-479f-bb53-d5ad07011e7b")
+	)
+	(fp_arc
+		(start 2.6 1.38)
+		(mid -3.031512 0)
+		(end 2.6 -1.38)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "660f68cd-7a53-4802-98a1-bf9d87db7cc1")
+	)
+	(fp_poly
+		(pts
+			(xy 3.1 -0.050403) (xy 3.1 -0.05) (xy 3.096 0.116) (xy 3.083 0.281) (xy 3.061 0.445) (xy 3.032 0.608)
+			(xy 2.993 0.77) (xy 2.947 0.929) (xy 2.892 1.085) (xy 2.829 1.238) (xy 2.759 1.388) (xy 2.681 1.534)
+			(xy 2.595 1.676) (xy 2.502 1.813) (xy 2.402 1.945) (xy 2.295 2.072) (xy 2.182 2.193) (xy 2.063 2.308)
+			(xy 1.938 2.417) (xy 1.808 2.519) (xy 1.672 2.615) (xy 1.532 2.703) (xy 1.387 2.784) (xy 1.239 2.857)
+			(xy 1.087 2.922) (xy 0.931 2.98) (xy 0.773 3.029) (xy 0.613 3.07) (xy 0.45 3.103) (xy 0.286 3.127)
+			(xy 0.121 3.143) (xy -0.049 3.15) (xy -0.052 3.15) (xy -0.211 3.148) (xy -0.374 3.138) (xy -0.537 3.119)
+			(xy -0.699 3.092) (xy -0.859 3.056) (xy -1.017 3.012) (xy -1.173 2.959) (xy -1.325 2.898) (xy -1.474 2.83)
+			(xy -1.619 2.753) (xy -1.76 2.669) (xy -1.896 2.577) (xy -2.027 2.479) (xy -2.153 2.374) (xy -2.273 2.262)
+			(xy -2.387 2.144) (xy -2.495 2.02) (xy -2.595 1.89) (xy -2.689 1.756) (xy -2.776 1.616) (xy -2.855 1.473)
+			(xy -2.926 1.325) (xy -2.99 1.174) (xy -3.045 1.019) (xy -3.092 0.862) (xy -3.131 0.703) (xy -3.161 0.541)
+			(xy -3.183 0.379) (xy -3.196 0.215) (xy -3.2 0.051) (xy -3.196 -0.118) (xy -3.182 -0.287) (xy -3.16 -0.455)
+			(xy -3.129 -0.621) (xy -3.089 -0.786) (xy -3.04 -0.948) (xy -2.983 -1.108) (xy -2.917 -1.264) (xy -2.844 -1.416)
+			(xy -2.762 -1.565) (xy -2.673 -1.709) (xy -2.576 -1.848) (xy -2.472 -1.981) (xy -2.361 -2.109) (xy -2.243 -2.231)
+			(xy -2.119 -2.347) (xy -1.989 -2.455) (xy -1.854 -2.557) (xy -1.713 -2.652) (xy -1.568 -2.739) (xy -1.418 -2.818)
+			(xy -1.264 -2.889) (xy -1.107 -2.951) (xy -0.946 -3.006) (xy -0.783 -3.051) (xy -0.618 -3.089) (xy -0.451 -3.117)
+			(xy -0.283 -3.136) (xy -0.114 -3.147) (xy 0.051 -3.148) (xy 0.216 -3.141) (xy 0.376 -3.126) (xy 0.534 -3.103)
+			(xy 0.692 -3.071) (xy 0.847 -3.031) (xy 1 -2.983) (xy 1.151 -2.928) (xy 1.298 -2.865) (xy 1.442 -2.794)
+			(xy 1.582 -2.715) (xy 1.718 -2.63) (xy 1.849 -2.538) (xy 1.975 -2.439) (xy 2.096 -2.334) (xy 2.212 -2.222)
+			(xy 2.321 -2.105) (xy 2.424 -1.982) (xy 2.521 -1.854) (xy 2.611 -1.721) (xy 2.694 -1.584) (xy 2.77 -1.443)
+			(xy 2.838 -1.297) (xy 2.899 -1.149) (xy 2.952 -0.998) (xy 2.997 -0.844) (xy 3.034 -0.688) (xy 3.063 -0.53)
+			(xy 3.083 -0.371) (xy 3.096 -0.211) (xy 3.1 -0.05) (xy 3.1 -0.050403)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.CrtYd")
+		(uuid "8edff5e3-7d59-4429-8ce9-f9dac74f2c56")
+	)
+	(fp_line
+		(start 2.5 -1.44)
+		(end 2.5 1.44)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f6e8ff06-49eb-4b8a-b809-623d221d373a")
+	)
+	(fp_arc
+		(start 2.5 1.44)
+		(mid -2.92404 0)
+		(end 2.5 -1.44)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3769273e-c90e-417f-8765-54f116ff4b5d")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ac3fb8d3-f49e-4b5b-968f-d5509a718167")
+	)
+	(fp_text user "+"
+		(at -3.9 0 0)
+		(layer "F.SilkS")
+		(uuid "aea44655-8ea9-45f6-838f-9cfcd0ff2414")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at -3.9 0 0)
+		(layer "F.Fab")
+		(uuid "05990863-c2c8-4699-9cae-a53f739d2686")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 1.27 0)
+		(size 1.508 1.508)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "666f3347-efa3-4afa-96c2-e7aa239a8f19")
+	)
+	(pad "2" thru_hole circle
+		(at -1.27 0)
+		(size 1.508 1.508)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "31dfdd35-77c9-49de-bcc7-f31b9fb93bee")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/library/LED_TRANS/LED_TRANS.pretty/LED_TRANS.step"
+		(offset
+			(xyz 0 0 -2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

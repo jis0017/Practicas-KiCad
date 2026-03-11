@@ -1,0 +1,234 @@
+(footprint "LED_CUADRADO"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "<B>WL-SMCW SMT Mono-color Chip LED Waterclear<Br><Br></B>Size: 1206, SMT, 2pins<Br>3.2x1.6x0.68mm(LXWXH)")
+	(property "Reference" "REF**"
+		(at 0 -1.8764 0)
+		(layer "F.SilkS")
+		(uuid "c982cb15-3db6-4e1f-8506-461ce8574d98")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WL-SMCW_1206"
+		(at 0 1.7936 0)
+		(layer "F.Fab")
+		(uuid "b45a6934-db94-4665-a231-46bda235d1b5")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "54b1c9b3-8a43-4c18-8db3-aa3073efbddf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8fab9dee-6397-4aab-a1a3-0aac96ff697c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.5 0.9)
+		(end 0.5 0.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "405b56ff-c888-4f24-9b06-52f246ee7dd3")
+	)
+	(fp_line
+		(start -0.4 -0.9)
+		(end 0.5 -0.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "319d6b1d-ce08-4470-958a-a58c12fd437c")
+	)
+	(fp_line
+		(start -0.33 0)
+		(end 0.21 -0.34)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "05bc9a75-51e9-4b3e-badb-7be2cd0978fc")
+	)
+	(fp_line
+		(start 0.21 -0.34)
+		(end 0.21 0.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ad706608-6d95-49fb-be80-d278fb51d409")
+	)
+	(fp_line
+		(start 0.21 0.35)
+		(end -0.33 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b403c06f-bbbe-4b88-baab-3d76cff8452f")
+	)
+	(fp_poly
+		(pts
+			(xy -2.4 -1.1) (xy 2.4 -1.1) (xy 2.4 1.1) (xy -2.4 1.1)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.CrtYd")
+		(uuid "19e7de14-0c40-4628-84d9-526f8e8fac21")
+	)
+	(fp_line
+		(start -1.6 0.8)
+		(end -1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5284e1ce-e778-4009-8455-5009d09a61d7")
+	)
+	(fp_line
+		(start -1.6 0.8)
+		(end 1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e3933b22-6353-4349-8873-89df0bd98431")
+	)
+	(fp_line
+		(start -0.33 0)
+		(end 0.21 -0.34)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "29ce5c58-64ea-4de0-be4b-3892e6a0dd9c")
+	)
+	(fp_line
+		(start 0.21 -0.34)
+		(end 0.21 0.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5499b521-0472-4b87-b3eb-284acaa9b24f")
+	)
+	(fp_line
+		(start 0.21 0.35)
+		(end -0.33 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f4201398-5086-4ba4-a7d1-a5136c973a62")
+	)
+	(fp_line
+		(start 1.6 -0.8)
+		(end -1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "178be6ed-4d60-4d3b-b293-ab635458abc7")
+	)
+	(fp_line
+		(start 1.6 -0.8)
+		(end 1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ee93bf9f-3cb0-4eb8-9a37-7eba5563c6c6")
+	)
+	(fp_text user "+"
+		(at 2.6 0.3 0)
+		(layer "F.SilkS")
+		(uuid "88ecd7dc-2e50-4543-884e-1a1d61649985")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at 2.6 0.3 0)
+		(layer "F.Fab")
+		(uuid "8eebe231-c7fc-411e-b0d5-846d80da79ac")
+		(effects
+			(font
+				(size 0.64 0.64)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.5 0)
+		(size 1.4 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "98dd4ee3-42bd-4cb1-bf72-307202d72341")
+	)
+	(pad "2" smd rect
+		(at 1.5 0)
+		(size 1.4 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "dfff90af-fcc7-482d-9796-e5ec61a845e3")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/library/LED_CUADRADO/LED_CUADRADO.pretty/LED_CUADRADO.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1.4 2.2 1.3)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
