@@ -139,7 +139,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -188,7 +188,9 @@
       ],
       "track_widths": [
         0.0,
-        0.25
+        0.25,
+        0.5,
+        1.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -611,7 +613,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "kicad-embed://plantilla.kicad_wks",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
@@ -625,7 +627,7 @@
   },
   "sheets": [
     [
-      "a2429c2f-3380-4c6e-b9bd-92acfef7997c",
+      "b1110952-eebe-4a2e-a4b6-8425708112d0",
       "Root"
     ]
   ],
