@@ -1,4 +1,4 @@
-27222558795800393
+27231421750236697
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -70552,6 +70552,13 @@ solder jumper open
 0
 3
 3
+LED_LTL-4233_LTO
+LED_LTL-4233_LTO
+
+LTL-4233 
+0
+2
+2
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -102696,6 +102703,13 @@ THT
 0
 12
 12
+TerminalBlock_OSTVN04A150
+TerminalBlock_OSTVN04A150
+
+
+0
+4
+4
 TerminalBlock_Philmore
 TerminalBlock_Philmore_TB132_1x02_P5.00mm_Horizontal
 Terminal Block Philmore , 2 pins, pitch 5mm, size 10x10.2mm, drill diameter 1.2mm, pad diameter 2.4mm, http://www.philmore-datak.com/mc/Page%20197.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_Philmore
@@ -107904,15 +107918,36 @@ Varistor VF
 0
 2
 2
-libary
-logo_foto
+library
+fin_logo
 
 
 0
 0
 0
-libary
-logo_osw
+library
+jake_logo
+
+
+0
+0
+0
+library
+logo_alv
+
+
+0
+0
+0
+logos
+logo_coco
+
+
+0
+0
+0
+logos
+logo_drilo
 
 
 0

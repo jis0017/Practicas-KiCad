@@ -139,7 +139,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -189,7 +189,8 @@
       "track_widths": [
         0.0,
         0.5,
-        1.5
+        1.0,
+        25.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -509,7 +510,7 @@
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "kicad-embed://plantilla.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -612,7 +613,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "kicad-embed://plantilla.kicad_wks",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
@@ -626,7 +627,7 @@
   },
   "sheets": [
     [
-      "ff90f4b6-9288-4340-9611-f3d9b6843ac3",
+      "d4cd81c0-331e-4d26-8466-8320894ffefe",
       "Root"
     ]
   ],
